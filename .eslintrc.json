@@ -29,7 +29,7 @@
     "no-console": "warn",
     "no-undef": "off",
     "func-names": "off",
-    "quotes": ["warning", "backtick"],
+    "quotes": ["warn", "backtick"],
     "camelcase": "error",
     "react/prop-types": 0,
     "react/no-unescaped-entities": 0,
