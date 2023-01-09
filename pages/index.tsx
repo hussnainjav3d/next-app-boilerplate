@@ -1,8 +1,8 @@
+import Layout from "components/Layout"
 import Head from "next/head"
+import { NextPageWithLayout } from "types/page"
 
-// eslint-disable-next-line quotes
-
-export default function Home() {
+const Home: NextPageWithLayout = () => {
   // const dispatch = useDispatch()
   return (
     <>
@@ -15,4 +15,8 @@ export default function Home() {
       <main>Tour 27</main>
     </>
   )
+}
+export default Home
+Home.getLayout = (page) => {
+  return <Layout>{page}</Layout>
 }
