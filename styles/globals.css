@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --color-fill: 159, 225, 245;
+    --color-text-base: 32, 45, 49;
+}

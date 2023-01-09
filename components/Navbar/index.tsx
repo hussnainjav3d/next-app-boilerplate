@@ -2,11 +2,11 @@ import Link from "next/link"
 
 export interface IHeader extends React.ComponentPropsWithoutRef<`header`> {}
 
-const Navbar: React.FC<IHeader> = ({ className, ...headerProps }) => {
+const Navbar: React.FC<IHeader> = ({ ...headerProps }) => {
   return (
     <header
       {...headerProps}
-      className={`w-full flex flex-row justify-between ${className}`}
+      className={`w-full flex flex-row justify-between text-skin-base bg-skin-fill`}
     >
       <div className="space-x-5 m-5">
         <h2>Logo</h2>

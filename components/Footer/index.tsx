@@ -1,10 +1,10 @@
 export interface IFooter extends React.ComponentPropsWithoutRef<`footer`> {}
 
-const Footer: React.FC<IFooter> = ({ className, ...footerProps }) => {
+const Footer: React.FC<IFooter> = ({ ...footerProps }) => {
   return (
     <footer
       {...footerProps}
-      className={`w-full p-5 bg-slate-100 text-slate-500 ${className}`}
+      className={`w-full p-5 text-skin-base bg-skin-fill`}
     >
       <p className="text-center">Footer</p>
     </footer>

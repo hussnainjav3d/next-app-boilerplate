@@ -12,7 +12,10 @@ const Home: NextPageWithLayout = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>Tour 27</main>
+      <main className="h-96 my-auto">
+        <h1>Virtual Tours and Experiences</h1>
+        <p>Hop on an virtual tour with our guides around the world!</p>
+      </main>
     </>
   )
 }
